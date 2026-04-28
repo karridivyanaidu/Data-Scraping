@@ -1,13 +1,16 @@
 # Data Scraping
 
-## Tools & Libraries
-- requests, beautifulsoup4 — blog scraping
-- youtube-transcript-api — YouTube transcripts
+## Tools & Libraries used: 
+- requests -  for HTTP fetching for all scrapers
+- beautifulsoup4 - HTML parsing and element extraction
+- lmxl - for fast HTML parsing backend
+- trafilatura - cleans article body text extraction
+- youtube-transcript-api — fetches auto-generated and manual youtube transcipts
 - langdetect — language detection
 
-## How To Run
-pip install requests beautifulsoup4 youtube-transcript-api langdetect
-python main.py
+## Scraping Approach:
+Blog posts:
+- It fe
 
 ## Limitations
 - Some sites block author/date extraction
