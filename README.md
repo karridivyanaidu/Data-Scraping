@@ -1,4 +1,4 @@
-# Data Scraping Assignment
+# Data Scraping
 
 ## Tools & Libraries
 - requests, beautifulsoup4 — blog scraping
