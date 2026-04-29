@@ -17,9 +17,15 @@ Youtube:
 - Reads Open Graph meta tags for title/description/date. Channel name comes from the ytInitialData JSON blob embedded in the page source. Transcripts are fetched via youtube-transcript-api (manual → auto-generated → any language), falling back to the video description if none are available.
 
 PubMed:
-Uses the official NCBI E-utilities API (efetch) to get clean XML with title, authors, journal, abstract, and date. Falls back to BeautifulSoup HTML scraping if the PMID can't be extracted from the URL.
+- Uses the official NCBI E-utilities API (efetch) to get clean XML with title, authors, journal, abstract, and date. Falls back to BeautifulSoup HTML scraping if the PMID can't be extracted from the URL.
 
 ## Limitations
 - Some sites block author/date extraction
 - YouTube transcripts unavailable for some videos
 - YouTube publish dates require API key
+
+## How to Run
+- Install dependencies
+- Set your URLs in each scraperfile
+- Run everything at once or run individual scrapers
+- Find your output in output folder
